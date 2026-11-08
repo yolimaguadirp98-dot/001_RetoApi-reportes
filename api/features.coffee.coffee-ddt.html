@@ -21,7 +21,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.capture("report_feature",{distinct_id:"ecfe3bf8-d197-46e2-ab59-00224fade599",karate_version:"1.4.1",karate_meta:null});
+    posthog.capture("report_feature",{distinct_id:"90dbbe59-7748-4066-b073-eeb8675b4062",karate_version:"1.4.1",karate_meta:null});
   }
 });
 </script>
@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2026-11-08 12:23:34 AM</div>
+    <div>2026-11-08 12:37:35 AM</div>
   </div>
 </div>
 
@@ -88,7 +88,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1004</span>
+              <span>ms:</span>&nbsp;<span>1215</span>
             </div>
           </div>
           <div class="step-row">
@@ -120,7 +120,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.7">00:23:31.048 Ambiente activo (karate.env): real 
+  <div class="preformatted" data-parent="1.7">00:37:31.617 Ambiente activo (karate.env): real 
 </div>   
 
   
@@ -140,7 +140,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def coffeeSchema = read(&#39;classpath:schemas/coffee-schema.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -168,7 +168,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def payload = { name: &#39;#(name + &quot; &quot; + uniqueId())&#39;, description: &#39;#(description)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -196,7 +196,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def created = call read(&#39;classpath:common/create-coffee.feature&#39;) { coffee: &#39;#(payload)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">344</div>
+    <div class="time-cell passed">413</div>
   </div>
 
    
@@ -215,7 +215,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">common.create-coffee</div>
       </div>
-      <div class="time-cell passed">325</div>
+      <div class="time-cell passed">401</div>
     </div>
     <div>
       <div><div>
@@ -259,7 +259,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>path coffeesPath</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -343,7 +343,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">322</div>
+    <div class="time-cell passed">400</div>
   </div>
 
    
@@ -399,7 +399,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def coffeeId = response.id</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -488,7 +488,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def found = call read(&#39;classpath:common/get-coffee.feature&#39;) { id: &#39;#(created.coffeeId)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">332</div>
+    <div class="time-cell passed">398</div>
   </div>
 
    
@@ -507,7 +507,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">common.get-coffee</div>
       </div>
-      <div class="time-cell passed">320</div>
+      <div class="time-cell passed">388</div>
     </div>
     <div>
       <div><div>
@@ -607,7 +607,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">319</div>
+    <div class="time-cell passed">387</div>
   </div>
 
    
@@ -696,7 +696,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>call read(&#39;classpath:common/delete-coffee.feature&#39;) { id: &#39;#(created.coffeeId)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">319</div>
+    <div class="time-cell passed">398</div>
   </div>
 
    
@@ -715,7 +715,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">common.delete-coffee</div>
       </div>
-      <div class="time-cell passed">309</div>
+      <div class="time-cell passed">391</div>
     </div>
     <div>
       <div><div>
@@ -843,7 +843,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method delete</span>
       </div>
     </div>
-    <div class="time-cell passed">309</div>
+    <div class="time-cell passed">390</div>
   </div>
 
    
@@ -905,7 +905,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>966</span>
+              <span>ms:</span>&nbsp;<span>1195</span>
             </div>
           </div>
           <div class="step-row">
@@ -937,7 +937,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="2.7">00:23:32.071 Ambiente activo (karate.env): real 
+  <div class="preformatted" data-parent="2.7">00:37:32.842 Ambiente activo (karate.env): real 
 </div>   
 
   
@@ -985,7 +985,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def payload = { name: &#39;#(name + &quot; &quot; + uniqueId())&#39;, description: &#39;#(description)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1013,7 +1013,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def created = call read(&#39;classpath:common/create-coffee.feature&#39;) { coffee: &#39;#(payload)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">318</div>
+    <div class="time-cell passed">379</div>
   </div>
 
    
@@ -1032,7 +1032,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">common.create-coffee</div>
       </div>
-      <div class="time-cell passed">305</div>
+      <div class="time-cell passed">374</div>
     </div>
     <div>
       <div><div>
@@ -1048,7 +1048,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>url baseUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1160,7 +1160,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">303</div>
+    <div class="time-cell passed">374</div>
   </div>
 
    
@@ -1305,7 +1305,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def found = call read(&#39;classpath:common/get-coffee.feature&#39;) { id: &#39;#(created.coffeeId)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">326</div>
+    <div class="time-cell passed">413</div>
   </div>
 
    
@@ -1324,7 +1324,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">common.get-coffee</div>
       </div>
-      <div class="time-cell passed">320</div>
+      <div class="time-cell passed">404</div>
     </div>
     <div>
       <div><div>
@@ -1424,7 +1424,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">320</div>
+    <div class="time-cell passed">404</div>
   </div>
 
    
@@ -1485,7 +1485,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>match found.response contains payload</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1513,7 +1513,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>call read(&#39;classpath:common/delete-coffee.feature&#39;) { id: &#39;#(created.coffeeId)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">317</div>
+    <div class="time-cell passed">400</div>
   </div>
 
    
@@ -1532,7 +1532,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">common.delete-coffee</div>
       </div>
-      <div class="time-cell passed">302</div>
+      <div class="time-cell passed">389</div>
     </div>
     <div>
       <div><div>
@@ -1576,7 +1576,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>path coffeesPath</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1660,7 +1660,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method delete</span>
       </div>
     </div>
-    <div class="time-cell passed">301</div>
+    <div class="time-cell passed">389</div>
   </div>
 
    
@@ -1722,7 +1722,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>969</span>
+              <span>ms:</span>&nbsp;<span>1239</span>
             </div>
           </div>
           <div class="step-row">
@@ -1754,7 +1754,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="3.7">00:23:33.045 Ambiente activo (karate.env): real 
+  <div class="preformatted" data-parent="3.7">00:37:34.046 Ambiente activo (karate.env): real 
 </div>   
 
   
@@ -1830,7 +1830,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def created = call read(&#39;classpath:common/create-coffee.feature&#39;) { coffee: &#39;#(payload)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">319</div>
+    <div class="time-cell passed">401</div>
   </div>
 
    
@@ -1849,7 +1849,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">common.create-coffee</div>
       </div>
-      <div class="time-cell passed">313</div>
+      <div class="time-cell passed">395</div>
     </div>
     <div>
       <div><div>
@@ -1977,7 +1977,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">313</div>
+    <div class="time-cell passed">394</div>
   </div>
 
    
@@ -2122,7 +2122,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def found = call read(&#39;classpath:common/get-coffee.feature&#39;) { id: &#39;#(created.coffeeId)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">322</div>
+    <div class="time-cell passed">385</div>
   </div>
 
    
@@ -2141,7 +2141,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">common.get-coffee</div>
       </div>
-      <div class="time-cell passed">312</div>
+      <div class="time-cell passed">379</div>
     </div>
     <div>
       <div><div>
@@ -2241,7 +2241,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">312</div>
+    <div class="time-cell passed">378</div>
   </div>
 
    
@@ -2302,7 +2302,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>match found.response contains payload</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -2330,7 +2330,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>call read(&#39;classpath:common/delete-coffee.feature&#39;) { id: &#39;#(created.coffeeId)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">324</div>
+    <div class="time-cell passed">449</div>
   </div>
 
    
@@ -2349,7 +2349,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">common.delete-coffee</div>
       </div>
-      <div class="time-cell passed">318</div>
+      <div class="time-cell passed">440</div>
     </div>
     <div>
       <div><div>
@@ -2477,7 +2477,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method delete</span>
       </div>
     </div>
-    <div class="time-cell passed">317</div>
+    <div class="time-cell passed">440</div>
   </div>
 
    
